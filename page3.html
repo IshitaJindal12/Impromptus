@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Your Choice</title>
+    
+    <style>
+    body {
+    font-family: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 250px;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Make the border circular */
+    border: 2px solid black; /* Add border */
+
+}
+
+.option h2 {
+    font-size: 1.2em;
+    background-color: #354176; /* Add background color */
+    color: white; /* Set text color to contrast with background */
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+
+.option:hover {
+    background-color: #ddd;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Make Your Choice</h1>
+        <div class="options">
+            <a href="page6.html" class="option">
+                <img src="airplane.png" alt="Airplane" width="1500" height="1500">
+                <h2>Airport Cab Sharing</h2>
+            </a>
+            <a href="page5.html" class="option">
+                <img src="car.png" alt="Car"width="1500" height="2500">
+                <h2>City Trip Plan</h2>
+            </a>
+            <a href="page7.html" class="option">
+                <img src="train.jpeg" alt="Train" width="1500" height="1500">
+                <h2>Station Cab Sharing</h2>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
